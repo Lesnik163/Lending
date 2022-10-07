@@ -982,6 +982,9 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     .black-dash-footer {
         width: 90%;
     }
+    .footer-map img {
+        height: 90%;
+    }
 }
 @media (max-width:830px) {
     .container>.button {
@@ -1092,6 +1095,9 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     }
     .form-conteiner label {
         font-size: 2vw;
+    }
+    .footer-map img {
+        height: 100%;
     }
     .cue {
         width: 100%;
