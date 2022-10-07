@@ -677,7 +677,6 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     align-items: center;
     margin: 0 auto;
     background-image: url(../images/footer-street.png);
-    height: 954px;
     width: 100%;
     margin-top: -60px;
 }
@@ -769,7 +768,8 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     margin-left:15px ;
 }
 .footer-map {
-    margin-top: 30px;
+    margin: 30px 0 66px 0;
+    width: 70%;
 }
 .footer-map img {
     width: 100%;
@@ -982,9 +982,6 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     .black-dash-footer {
         width: 90%;
     }
-    .footer-map img {
-        height: 90%;
-    }
 }
 @media (max-width:830px) {
     .container>.button {
@@ -1095,9 +1092,6 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     }
     .form-conteiner label {
         font-size: 2vw;
-    }
-    .footer-map img {
-        height: 100%;
     }
     .cue {
         width: 100%;
