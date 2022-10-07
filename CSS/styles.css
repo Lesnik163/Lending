@@ -702,7 +702,6 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .footer-input {
     font-size: 14px;
@@ -869,9 +868,6 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     .img-chair {
         background-position: top center;
     }
-    /* .explanation {
-        text-align: left;
-    } */
 }
 @media (max-width:1180px) {
     .logo {
@@ -927,10 +923,8 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
         flex-direction: column;
         align-items: center;
         gap:22px;
-        justify-content: space-around;
     }
     .upper {
-        align-items: center;
         margin-left: 2%;
     }
     .circle-neibor {
@@ -1090,13 +1084,12 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     .photo_item {
         width: 374px;
     }
-    .footer-adress h3{
+    .footer-adress h3 {
         width:100%;
     }
     .black-dash {
         width: 80%;
     }
-    
     .form-conteiner label {
         font-size: 2vw;
     }
