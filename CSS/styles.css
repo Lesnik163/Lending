@@ -1019,7 +1019,7 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
         display: none;
     }
     .phone {
-        margin-left: 9%;
+        margin-left: 0;
     }
     .burger-icon span {
         display: none;
@@ -1105,5 +1105,12 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     }
     .agreement-footer .label-ch {
         margin-left: 15%;
+    }
+    .left-column {
+        margin-top: 0px;
+        height: 50%;
+    }
+    .left-column img:last-of-type{
+        display:none;
     }
 }
