@@ -113,7 +113,7 @@ body {
     color:white;
 }
 .section_content {
-    background-image: url(../images/kitchen.png);
+    background-image: url(./images/kitchen.png);
     max-width: 1299px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -378,9 +378,9 @@ label {
     width:392px;
     height: 379px;
 }
-.red {background-image: url(../images/greywall.jpg)}
-.over{background-image: url(../images/peach-room.jpg)}
-.rep {background-image: url(../images/grey-room.jpg)}
+.red {background-image: url(./images/greywall.jpg)}
+.over{background-image: url(./images/peach-room.jpg)}
+.rep {background-image: url(./images/grey-room.jpg)}
 .common {
     background-color: #FFFFFF;
     width:330px;
@@ -421,7 +421,7 @@ label {
     flex-direction: column;
     width: 766px;
     height: 645px;
-    background-image: url(../images/grey-home-landscape.png);
+    background-image: url(./images/grey-home-landscape.png);
     gap: 7px;
     background-repeat: no-repeat;
 }
@@ -509,7 +509,7 @@ img[alt="01"] {
 }
 .dark-hall {
     display:flex;
-    background-image: url(../images/max-hall.png);
+    background-image: url(./images/max-hall.png);
     background-size: 100%;
     background-position: top center;
     margin-top: 242px;
@@ -680,7 +680,7 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    background-image: url(../images/footer-street.png);
+    background-image: url(./images/footer-street.png);
     width: 100%;
     margin-top: -60px;
 }
