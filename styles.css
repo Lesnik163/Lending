@@ -192,7 +192,6 @@ label {
     line-height: 19px;
     text-transform: uppercase;
     margin-top: 96px;
-    color: #E3B873;
     justify-content: space-between;
     list-style: none;
     padding: 0;
@@ -201,7 +200,7 @@ label {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.3);
 }
-.list .linked {
+.list li a:hover {
     color: #E3B873;
     text-decoration: underline;
 }
@@ -237,13 +236,18 @@ img[alt="chairs"] {
 }
 .points {
     margin: 0 11px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+.points:active {
+    background: #FFFFFF;
 }
 .img-chair {
     width:106%;
     height:500px;
     margin-top: 58px;
     background-repeat: no-repeat;
-    background-image: url(../images/chairs.png);
+    background-image: url(./images/chairs.png);
 }
 .camera{
     margin-top: 82px;
@@ -272,7 +276,7 @@ img[alt="chairs"] {
     margin: -209px auto 0 auto;
     width: 790px;
     height: 418px; 
-    background-image: url(../images/painter.png);  
+    background-image: url(./images/painter.png);  
 }
 .dark {
     height:inherit;
@@ -790,7 +794,6 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     .img-chair {
         height:500px;
         margin-top: 58px;
-        background-image: url(../images/chairs.png);
     }
     .wrapper {
         margin-bottom:50px ;

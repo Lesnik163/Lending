@@ -1,0 +1,19 @@
+{
+  "name": "slider-js",
+  "version": "1.0.0",
+  "description": "slideImagesByclick",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lesnik163/Lending.git"
+  },
+  "author": "Liubich Dmitrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lesnik163/Lending/issues"
+  },
+  "homepage": "https://github.com/Lesnik163/Lending#readme"
+}

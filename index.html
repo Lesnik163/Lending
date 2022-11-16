@@ -7,7 +7,7 @@
     <title>Landing by template</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <link href="./styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header class="header">
@@ -84,15 +84,19 @@
                     </div>
                     <div class="arrows">
                         <a href=""><img src="./icon/left-vector.svg" alt="left-vector"></a>
-                        <span><img src="./icon/points.svg" class="points" alt=""></span>
+                        <span class="dots">
+                            <img src="./icon/dimPoint.svg" class="points" alt="leftPoint">
+                            <img src="./icon/dimPoint.svg" class="points" alt="centrePoint">
+                            <img src="./icon/dimPoint.svg" class="points" alt="rightPoint">
+                        </span>
                         <a href=""><img src="./icon/right-vector.svg" alt="right-vector"></a>
                     </div>
-                </div>    
+                </div>   
                 <div class="wrapper-right">
                     <ul class="list Yeseva">
-                        <li><a href="" class="linked"> Rostov-on-Don, Admiral</a></li>
-                        <li><a href="">Sochi Thieves</a></li>
-                        <li><a href=""> Rostov-on-Don Patriotic</a></li>
+                        <li><a href="" data-index="first">Rostov-on-Don, Admiral</a></li>
+                        <li><a href="" data-index="second">Sochi Thieves</a></li>
+                        <li><a href="" data-index="third">Rostov-on-Don Patriotic</a></li>
                     </ul>
                     <div class="img-chair">
                     </div>
@@ -461,5 +465,10 @@
             <button type="button" class="button">Request a call</button>
         </div>
     </footer>
+    <script type = "module" src = './index.js'></script>
+    <script type = "module" src = './src/js-moduls/initialData.js'></script>
+    <script type = "module" src = './src/js-moduls/initSlider.js'></script>
+    <script type = "module" src = './src/js-moduls/utilForChangeImgAndContent.js'></script>
+    <script type = "module" src = './src/js-moduls/utilForChangeBrigtness.js'></script>
 </body>
 </html>
