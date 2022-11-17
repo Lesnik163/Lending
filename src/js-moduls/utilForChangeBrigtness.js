@@ -17,7 +17,6 @@ function changeBrightnessDotsAndArtikles(index) {
 
 dotsSpan.addEventListener('click', (evt)=>{
     clickedIndex = imgArr.indexOf(evt.target)//ищет индекс нажатого кружка
-    console.log(clickedIndex)
     changeBrightnessDotsAndArtikles(clickedIndex)
 })
 articlesUnoderedList.addEventListener('click', (evt)=>{

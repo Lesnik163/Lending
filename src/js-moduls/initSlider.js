@@ -33,7 +33,6 @@ function initSlider() {
     rightArrow.addEventListener('click', (evt)=>{
         evt.preventDefault()
         checkIndexChanging()
-        console.log(CURRENT_INDEX,'CURRENT_INDEX')
         if(CURRENT_INDEX === images.length - 1) {
             CURRENT_INDEX = 0;
         }else{
