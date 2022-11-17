@@ -191,7 +191,7 @@ label {
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-    margin-top: 96px;
+    margin-top: 75px;
     justify-content: space-between;
     list-style: none;
     padding: 0;
@@ -245,7 +245,7 @@ img[alt="chairs"] {
 .img-chair {
     width:106%;
     height:500px;
-    margin-top: 58px;
+    margin-top: 50px;
     background-repeat: no-repeat;
     background-image: url(./images/chairs.png);
 }
@@ -878,6 +878,7 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
     }
     .arrows {
         text-align: center;
+        margin-top: 30px;
     }
     .header-navigation {
         margin-left:-3%;
@@ -895,8 +896,7 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
         flex-direction: column;
     }
     .wrapper-left {
-        margin-left: 0;
-        margin-top: 40px;
+        margin: 40px 0 25px 0;
     }
     .camera .Yeseva {
         text-align: center;
@@ -958,7 +958,7 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
         max-width: 250px;
     }
     .arrows {
-        margin-right: 20%;
+        margin-right: 12%;
     } 
     .text {
         margin: 40px auto 0px auto;
@@ -1113,6 +1113,11 @@ img[src="./icon/Graphic.svg"]+span, img[src="./icon/plansheet.svg"]+span {
         height: 50%;
     }
     .left-column img:last-of-type{
+        display:none;
+    }
+}
+@media all and (max-width:400px) {
+    .dots {
         display:none;
     }
 }
